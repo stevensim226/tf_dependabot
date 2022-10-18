@@ -1,6 +1,6 @@
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "3.11.0"
+  version = "3.16.1"
 
   name = "hello"
   cidr = "20.10.0.0/16" # 10.0.0.0/8 is reserved for EC2-Classic
